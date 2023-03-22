@@ -527,9 +527,12 @@ footer {
         border-radius: 100%;
     }
 
-    h1 h2 h3 {
+    .contenido_banner h3 {
         font-size: small;
-        
+    }
+
+    #names h1 {
+        font-size: small;
     }
 
     .Experiencia h2, .Experiencia h4{
