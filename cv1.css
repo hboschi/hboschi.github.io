@@ -165,6 +165,8 @@ header {
         color:yellow;
     }
 
+ /* main pagina de esperiencia*/
+
     .Experiencia {
         position: relative;
         text-align: center;
@@ -401,8 +403,8 @@ aside {
 /*boton de ir arriba*/
 
 #button-up {
-    width: 60px;
-    height: 60px;
+    width: 45px;
+    height: 45px;
     background:rgba(6, 6, 235, 0.6);
     display: flex;
     justify-content: center;
@@ -499,7 +501,7 @@ footer {
         top: 0%;
         text-align: center;
         padding: 100px 0px;
-        z-index: 100px;
+        z-index: 140;
         transition: 109;
     }
     .menu a{
@@ -555,24 +557,24 @@ footer {
         font-size: 20px;
     }*/
     
-    /* main */
+    /* main responsive*/
     
     .historia_vida {
         background: url(https://cdn.pixabay.com/photo/2020/06/04/11/10/bulb-5258341_1280.jpg) center fixed no-repeat;
         background-size:auto;
+        margin: auto;
         position:relative;
         align-items:center;
-        height: 65vh;
-        width: 65vh;
-        left: auto;
+        height:fit-content;
+        width: 45vh;
         }
     
     #timeline{
         content: " ";
         position: relative;
         background: white;
-        width: 1px;
-        right: 20%;
+        width:min-content;
+        right:auto;
         font-family: roboto;
         }
         
@@ -582,8 +584,4 @@ footer {
         position:fixed;
     }
 
-
 }
-
-
-
