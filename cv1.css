@@ -517,7 +517,7 @@ footer {
         right: 0px;
     }
     .contenido_banner{
-        display: none;
+        display:flex;
     }
     
     #people img{
@@ -538,8 +538,8 @@ footer {
     }
     .caja1, .caja2, .caja3, .caja4, .caja5, .caja6 {
         position: unset;
-        width: 125px;
-        height: 100px;
+        width: 195px;
+        height: 175px;
         background-color:rgba(6, 6, 235, 0.2);
     }
 
