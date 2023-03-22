@@ -521,18 +521,18 @@ footer {
     }
     
     #people img{
-        width: 95px;
-        height: 95px;
+        width: 65px;
+        height: 65px;
         position:relative;
         border-radius: 100%;
     }
 
-    .contenido_banner h3 {
-        font-size: small;
+    .contenido_banner h3 h2{
+        font-size: medium;
     }
 
     #names h1 {
-        font-size: small;
+        font-size: medium;
     }
 
     .Experiencia h2, .Experiencia h4{
