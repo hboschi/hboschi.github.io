@@ -501,7 +501,7 @@ footer {
         top: 0%;
         text-align: center;
         padding: 100px 0px;
-        z-index: 140;
+        z-index: 1400;
         transition: 109;
     }
     .menu a{
@@ -517,7 +517,7 @@ footer {
         right: 0px;
     }
     .contenido_banner{
-        display:flex;
+        display: flex;
     }
     
     #people img{
@@ -527,12 +527,16 @@ footer {
         border-radius: 100%;
     }
 
+    h1 h2 h3 {
+        font-size: small;
+    }
+
     .Experiencia h2, .Experiencia h4{
         font-size: medium;
     }
     .cajas{
         position:relative;
-        margin: 5px auto;
+        margin: 95px auto;
         height: 800px;
         width: 200px;
     }
