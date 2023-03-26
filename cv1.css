@@ -201,9 +201,7 @@ header {
     .caja1 img, .caja2 img, .caja3 img, .caja4 img, .caja5 img, .caja6 img {
         width: 250px;
         height: 200px;
-        display: flex;
         position:absolute;
-        max-width: 1100px;
     }
     .caja1{
         top: 50px;
@@ -232,13 +230,6 @@ header {
     .caja1 img {
         top: 0px;
         left: 260px;
-        box-shadow: 0px 1px 10px rgba(0, 0, 0 , 0.2);
-        cursor: default;
-        transition: all 400ms ease;
-    }
-    .caja1 img:hover{
-        box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.4);
-        transform: translate(-3%);
     }
     .caja2 img {
         top: 0px;
@@ -264,8 +255,6 @@ header {
     .caja1:hover, .caja2:hover, .caja3:hover, .caja4:hover, .caja5:hover, .caja6:hover {
         background-color: rgba(208, 226, 43, 0.241);
     }
-
-
 
 /* aside barra de progreso */
 
